@@ -26,4 +26,4 @@ def validate_tags(tags):
         return False
     return all(isinstance(tag, str) for tag in tags)
 
-# Add more helper functions as needed
+
